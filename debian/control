@@ -1,0 +1,17 @@
+Source: libdatetime-event-cron-perl
+Section: perl
+Priority: optional
+Maintainer: Alexander Wirt <formorer@debian.org>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.3
+Homepage: http://search.cpan.org/dist/DateTime-Event-Cron/
+
+Package: libdatetime-event-cron-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: DateTime extension for generating recurrence
+ DateTime::Event::Cron generated DateTime events or DateTime::Set objects
+ based on crontab-style entries.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
